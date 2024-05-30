@@ -224,10 +224,45 @@ return {
 		diff_delete = "#2d2223",
 		diff_change = "#172a3a",
 		diff_text = "#274964",
-		mint = "#3EB489",
+		string = "#3EB489", -- mint
 		builtin = "#FF69BF", -- pink
 		parameter = "#48b0bd", -- cyan
 		escape = "#7F00FF", -- violet
 		comment = "#41C9E2",
+	},
+	rose = {
+		black = "#0e1013",
+		bg0 = "#232326", -- warmer
+		bg1 = "#282c34",
+		bg2 = "#30363f",
+		bg3 = "#323641",
+		bg_d = "#181b20",
+		bg_blue = "#61afef",
+		bg_yellow = "#e8c88c",
+		ibl_scope = "#F33A6A",
+		fg = "#a0a8b7",
+		purple = "#8576FF",
+		green = "#14C38E",
+		orange = "#cc9057",
+		-- blue = "#8576FF",
+		blue = "#bf68d9",
+		yellow = "#e2b86b",
+		cyan = "#4B7BE5", -- dark purple
+		red = "#e55561",
+		grey = "#535965",
+		light_grey = "#7a818e",
+		dark_cyan = "#266269",
+		dark_red = "#8b3434",
+		dark_yellow = "#835d1a",
+		dark_purple = "#7e3992",
+		diff_add = "#272e23",
+		diff_delete = "#2d2223",
+		diff_change = "#172a3a",
+		diff_text = "#274964",
+		string = "#3EB489", -- mint
+		builtin = "#4fa6ed",
+		parameter = "#cc9057", -- orange
+		escape = "#7F00FF", -- violet
+		comment = "#E95793" -- pink
 	},
 }
