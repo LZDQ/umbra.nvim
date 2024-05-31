@@ -195,8 +195,8 @@ return {
 		diff_change = "#e2ecfb",
 		diff_text = "#cad3e0",
 	},
-	lumen = {
-		-- forked from darker
+	darkest = {
+		-- base color is  from darker
 		black = "#0e1013",
 		bg0 = "#1f2329",
 		bg1 = "#282c34",
@@ -205,7 +205,7 @@ return {
 		bg_d = "#181b20",
 		bg_blue = "#61afef",
 		bg_yellow = "#e8c88c",
-		ibl_scope = "#e8c88c",
+		-- ibl_scope = "#e8c88c",
 		fg = "#a0a8b7",
 		purple = "#bf68d9",
 		green = "#8ebd6b",
@@ -228,25 +228,27 @@ return {
 		builtin = "#FF69BF", -- pink
 		parameter = "#48b0bd", -- cyan
 		escape = "#7F00FF", -- violet
-		comment = "#41C9E2",
+		comment = "#57A6A1",
+		telescope = "#4fa6ed", -- blue
 	},
-	rose = {
-		black = "#0e1013",
-		bg0 = "#232326", -- warmer
-		bg1 = "#282c34",
-		bg2 = "#30363f",
-		bg3 = "#323641",
-		bg_d = "#181b20",
-		bg_blue = "#61afef",
-		bg_yellow = "#e8c88c",
-		ibl_scope = "#F33A6A",
-		fg = "#a0a8b7",
+	bloodmoon = {
+		-- base color is from warmer
+		black = "#101012",
+		bg0 = "#232326",
+		bg1 = "#2c2d31",
+		bg2 = "#35363b",
+		bg3 = "#37383d",
+		bg_d = "#1b1c1e",
+		bg_blue = "#68aee8",
+		bg_yellow = "#e2c792",
+		fg = "#a7aab0",
+		-- ibl_scope = "#F33A6A",
 		purple = "#8576FF",
 		green = "#14C38E",
 		orange = "#cc9057",
 		-- blue = "#8576FF",
 		blue = "#bf68d9",
-		yellow = "#e2b86b",
+		yellow = "#ad7a49", -- dark oragen
 		cyan = "#4B7BE5", -- dark purple
 		red = "#e55561",
 		grey = "#535965",
@@ -261,8 +263,47 @@ return {
 		diff_text = "#274964",
 		string = "#3EB489", -- mint
 		builtin = "#4fa6ed",
-		parameter = "#cc9057", -- orange
+		parameter = "#3c939e", -- dark cyan
 		escape = "#7F00FF", -- violet
-		comment = "#E95793" -- pink
+		comment = "#E95793", -- pink
+		telescope = "#850F8D", -- red
+	},
+	moonlight = {
+		-- base color is from darker
+		black = "#0e1013",
+		bg0 = "#1f2329",
+		bg1 = "#282c34",
+		bg2 = "#30363f",
+		bg3 = "#323641",
+		bg_d = "#181b20",
+		bg_blue = "#61afef",
+		bg_yellow = "#e8c88c",
+		fg = "#a0a8b7",
+		-- ibl_scope = "#F33A6A",
+		purple = "#8576FF",
+		green = "#2a96a2",
+		orange = "#cc9057",
+		-- blue = "#8576FF",
+		cyan = "#4fa6ed", -- blue
+		yellow = "#ad7a49", -- dark oragen
+		blue = "#4B7BE5", -- dark purple
+		red = "#E95793", -- pink
+		grey = "#535965",
+		light_grey = "#7a818e",
+		dark_cyan = "#266269",
+		dark_red = "#8b3434",
+		dark_yellow = "#835d1a",
+		dark_purple = "#7e3992",
+		diff_add = "#272e23",
+		diff_delete = "#2d2223",
+		diff_change = "#172a3a",
+		diff_text = "#274964",
+		-- builtin = "#",
+		parameter = "#bf68d9", -- 
+		-- member = 
+		escape = "#7F00FF", -- pink
+		string = "#83A2FF", -- light violet
+		comment = "#9b8aef", -- purple
+		telescope = "#874CCC", -- dark purple
 	},
 }

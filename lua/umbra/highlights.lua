@@ -213,7 +213,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@type.builtin"] = colors.Green,
         ["@variable"] = {fg = c.fg, fmt = cfg.code_style.variables},
         ["@variable.builtin"] = {fg = c.builtin or c.red, fmt = cfg.code_style.variables},
-        ["@variable.member"] = colors.Cyan,
+        ["@variable.member"] = {fg = c.member or c.cyan},
         ["@variable.parameter"] = {fg = c.parameter or c.red},
         ["@markup.heading.1.markdown"] = {fg = c.red, fmt = "bold"},
         ["@markup.heading.2.markdown"] = {fg = c.purple, fmt = "bold"},
@@ -482,9 +482,9 @@ hl.plugins.nvim_tree = {
 }
 hl.plugins.telescope = {
     TelescopeBorder = colors.Red,
-    TelescopePromptBorder = colors.Cyan,
-    TelescopeResultsBorder = colors.Cyan,
-    TelescopePreviewBorder = colors.Cyan,
+	TelescopePromptBorder = { fg = c.telescope or c.Cyan },
+    TelescopeResultsBorder = { fg = c.telescope or c.Cyan },
+    TelescopePreviewBorder = { fg = c.telescope or c.Cyan },
     TelescopeMatching = { fg = c.orange, fmt = "bold" },
     TelescopePromptPrefix = colors.Green,
     TelescopeSelection =  { bg =c.bg2 },
