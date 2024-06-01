@@ -1,3 +1,11 @@
 # Umbra
 
-This is a colorscheme forked from [roobert/palette.nvim](https://github.com/roobert/palette.nvim).
+My colorscheme from [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim)
+
+# Screenshots
+
+![bloodmoon](screenshots/bloodmoon.png)
+
+![moonlight](screenshots/moonlight.png)
+
+![darkest](screenshots/darkest.png)
