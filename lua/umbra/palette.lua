@@ -248,7 +248,7 @@ return {
 		orange = "#cc9057",
 		-- blue = "#8576FF",
 		blue = "#bf68d9",
-		yellow = "#ad7a49", -- dark oragen
+		yellow = "#e2b86b",
 		cyan = "#4B7BE5", -- dark purple
 		red = "#e55561",
 		grey = "#535965",
@@ -285,7 +285,7 @@ return {
 		orange = "#cc9057",
 		-- blue = "#8576FF",
 		cyan = "#4fa6ed", -- blue
-		yellow = "#ad7a49", -- dark oragen
+		yellow = "#e2b86b",
 		blue = "#4B7BE5", -- dark purple
 		red = "#E95793", -- pink
 		grey = "#535965",
