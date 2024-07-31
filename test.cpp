@@ -7,6 +7,7 @@
 using namespace std;
 typedef long long ll;
 typedef vector<int> Poly;
+// Sample Poly templates
 const int MAXN=1e5+5,mod=998244353,G=3,invG=(mod+1)/3;
 int n;
 ll fac[MAXN],inv[MAXN];

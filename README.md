@@ -4,15 +4,15 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 # Screenshots
 
-<span style="color:red;">🌕</span> **wine** <span style="color:red;">🌕</span>
+<span style="color:red;">🌕</span> **lollipop** <span style="color:red;">🌕</span>
 
-![](screenshots/rose.png)
+![](screenshots/lollipop.png)
 
 
 
-🌙 **twilight** 🌙
+🌙 **fullmoon** 🌙
 
-![](screenshots/twilight.png)
+![](screenshots/fullmoon.png)
 
 
 
@@ -37,7 +37,7 @@ local umbra = require('umbra')
 
 umbra.setup {
 	-- Main options --
-	style = 'twilight',           -- Default theme style. Choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
+	style = 'fullmoon',           -- Default theme style. Choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
 	transparent = false,          -- Show/hide background
 	term_colors = true,           -- Change terminal color as per the selected theme style
 	ending_tildes = false,        -- Show the end-of-buffer tildes. By default they are hidden
@@ -46,8 +46,8 @@ umbra.setup {
 	-- toggle theme style ---
 	toggle_style_key = '!',       -- keybind to toggle theme style. Leave it nil to disable it, or set it to a string, for example "<leader>ts"
 	toggle_style_list = {
-		'rose',
-		'twilight',
+		'lollipop',
+		'fullmoon',
 		'darkest',
 		-- 'deep',
 		-- 'warm',

@@ -1,6 +1,6 @@
 local M = {}
 
-M.styles_list = {'rose', 'moon', 'darkest', 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer'}
+M.styles_list = {'lollipop', 'fullmoon', 'darkest', 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer'}
 
 ---Change umbra option (vim.g.umbra_config.option)
 ---It can't be changed directly by modifying that field due to a Neovim lua bug with global variables (umbra_config is a global variable)
@@ -43,7 +43,7 @@ end
 
 local default_config = {
     -- Main options --
-    style = 'dark', -- Default style. Choose between 'rose', 'twilight',
+    style = 'lollipop', -- Default style. Choose between 'rose', 'twilight',
 					-- 'darkest', 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
     toggle_style_key = '!', -- Default key to switch between styles
     toggle_style_list = M.styles_list,
