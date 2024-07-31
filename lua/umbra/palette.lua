@@ -231,7 +231,7 @@ return {
 		comment = "#57A6A1",
 		telescope = "#4fa6ed", -- blue
 	},
-	bloodmoon = {
+	rose = {
 		-- base color is from warmer
 		black = "#101012",
 		bg0 = "#232326",
@@ -268,7 +268,7 @@ return {
 		comment = "#E95793", -- pink
 		telescope = "#850F8D", -- red
 	},
-	moonlight = {
+	twilight = {
 		-- base color is from darker
 		black = "#0e1013",
 		bg0 = "#1f2329",

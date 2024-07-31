@@ -4,17 +4,13 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 # Screenshots
 
-<span style="color:red;">🌕</span> **bloodmoon** <span style="color:red;">🌕</span>
+<span style="color:red;">🌕</span> **wine** <span style="color:red;">🌕</span>
 
-This one's my favorite now. Blending red and pink into purple and violet. The comments are smooth and satisfying, and the contrasts are good.
+![](screenshots/rose.png)
 
-![bloodmoon](screenshots/bloodmoon.png)
+🌙 **twilight** 🌙
 
-🌙 **moonlight** 🌙
-
-Full of purple and violet. The only cons is inadequate contrast
-
-![moonlight](screenshots/moonlight.png)
+![](screenshots/twilight.png)
 
 -----
 
@@ -39,18 +35,18 @@ local umbra = require('umbra')
 
 umbra.setup {
 	-- Main options --
-	style = 'bloodmoon',          -- Default theme style. Choose between 'bloodmoon', 'moonlight', 'darkest', 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
+	style = 'twilight',           -- Default theme style. Choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
 	transparent = false,          -- Show/hide background
 	term_colors = true,           -- Change terminal color as per the selected theme style
 	ending_tildes = false,        -- Show the end-of-buffer tildes. By default they are hidden
 	cmp_itemkind_reverse = false, -- reverse item kind highlights in cmp menu
 
 	-- toggle theme style ---
-	toggle_style_key = '!',                                                    -- keybind to toggle theme style. Leave it nil to disable it, or set it to a string, for example "<leader>ts"
+	toggle_style_key = '!',       -- keybind to toggle theme style. Leave it nil to disable it, or set it to a string, for example "<leader>ts"
 	toggle_style_list = {
-		'moonlight',
+		'rose',
+		'twilight',
 		'darkest',
-		'bloodmoon',
 		-- 'deep',
 		-- 'warm',
 		'warmer',
@@ -78,8 +74,9 @@ umbra.setup {
 
 	-- Custom Highlights --
 	colors = {}, -- Override default colors
-	highlights = { -- Override highlight groups
-	},
+	highlights = {
+		-- For all options, see
+	},                                   -- Override highlight groups
 
 	-- Plugins Config --
 	diagnostics = {
@@ -101,6 +98,4 @@ Beyond onedark, this colorscheme adds a few features:
 
 # TODO
 
-1. - [ ] export each style into a colorscheme like tokyonight-*, and allow different custom highlights for each of them
-2. - [ ] lualine support
 3. - [ ] more styles. Planning on release 'rose' and 'pure', and (probably not going to happen because I don't like light themes) 'lumen'.

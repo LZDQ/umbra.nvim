@@ -1,3 +1,7 @@
+"""
+This is sample code to showcase this colorscheme.
+"""
+
 from scipy.interpolate import interp1d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -68,3 +72,7 @@ class ChildClass(ParentClass):
         return self.name
 
 obj = ChildClass("John")
+
+arr = [1, 0.2, .3, -4, 0x5, 06, 1e100]
+
+
