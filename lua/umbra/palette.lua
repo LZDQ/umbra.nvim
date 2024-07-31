@@ -346,12 +346,12 @@ return {
 		number = "#cc9057", -- orange
 		-- member = 
 		escape = "#7F00FF", -- pink
-		string = "#6EACDA", -- cyan
+		string = "#AD88C6", -- pink?
 		comment = "#81689D", -- dirty purple
 		-- type = "#818FB4",  -- pale purple
 		type = "#2284D1",
 		constant = "#B04889", -- red
-		-- constructor = "#80AF81", -- sage
+		constructor = "#6EACDA", -- cyan
 		telescope = "#DCAE96", -- dusty rose
 	},
 }
