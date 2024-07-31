@@ -4,7 +4,7 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 # Screenshots
 
-🌕 **fullmoon** 🌕
+## 🌕 **fullmoon** 🌕
 
 ![](screenshots/fullmoon/1.png)
 
@@ -14,7 +14,7 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 -----
 
-🌹 **rose** 🌹
+## 🌹 **rose** 🌹
 
 ![](screenshots/rose/1.png)
 
@@ -24,7 +24,7 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 -----
 
-🍭 **lollipop** 🍭
+## 🍭 **lollipop** 🍭
 
 ![](screenshots/lollipop/1.png)
 
@@ -32,7 +32,7 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 -----
 
-🌑 **lite** 🌑 (follows the style in onedark)
+## 🌑 **lite** 🌑 (follows the style in onedark)
 
 ![](screenshots/lite/lite.png)
 
