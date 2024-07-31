@@ -74,5 +74,7 @@ class ChildClass(ParentClass):
 obj = ChildClass("John")
 
 arr = [1, 0.2, .3, -4, 0x5, 06, 1e100]
+a0 = int(arr[0])
 
+print(f"a0 is: {a0} and array is {arr}")
 

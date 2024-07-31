@@ -281,11 +281,11 @@ return {
 		fg = "#a0a8b7",
 		-- ibl_scope = "#F33A6A",
 		purple = "#8576FF",
-		green = "#2a96a2",
+		green = "#2a96a2", -- teal
 		orange = "#cc9057",
 		-- blue = "#8576FF",
 		cyan = "#4fa6ed", -- blue
-		yellow = "#e2b86b",
+		yellow = "#E0A75E",
 		blue = "#4B7BE5", -- dark purple
 		red = "#E95793", -- pink
 		grey = "#535965",
@@ -300,10 +300,14 @@ return {
 		diff_text = "#274964",
 		-- builtin = "#",
 		parameter = "#bf68d9", -- 
+		number = "#cc9057", -- orange
 		-- member = 
 		escape = "#7F00FF", -- pink
 		string = "#83A2FF", -- light violet
 		comment = "#9b8aef", -- purple
+		type = "#AF47D2",  -- dark purple
+		constant = "#B04889", -- red
+		constructor = "#55AD9B", -- 
 		telescope = "#874CCC", -- dark purple
 	},
 }
