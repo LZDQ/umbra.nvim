@@ -312,9 +312,9 @@ return {
 		telescope = "#874CCC", -- dark purple
 	},
 	rose = {
-		-- base color is from deep
+		-- base color is from deep, with slightly different bg0
 		black = "#0c0e15",
-		bg0 = "#1a212e",
+		bg0 = "#1C1F26",
 		bg1 = "#21283b",
 		bg2 = "#283347",
 		bg3 = "#2a324a",
@@ -323,13 +323,13 @@ return {
 		bg_yellow = "#f2cc81",
 		fg = "#93a4c3",
 		-- ibl_scope = "#F33A6A",
-		purple = "#C03698", -- wine
+		purple = "#C641B6", -- wine
 		green = "#9290C3", -- pale purple
 		orange = "#cc9057",
 		-- blue = "#8576FF",
 		cyan = "#3572EF", -- blue
 		yellow = "#E0A75E",
-		blue = "#BA135D", -- wine
+		blue = "#BD3570", -- wine
 		red = "#E95793", -- pink
 		grey = "#535965",
 		light_grey = "#7a818e",
