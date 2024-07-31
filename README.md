@@ -64,7 +64,7 @@ umbra.setup {
 	toggle_style_list = {
 		'lollipop',
 		'fullmoon',
-        'rose',
+        'impure',
 		'lite',
 		-- 'deep',
 		-- 'warm',
@@ -117,4 +117,6 @@ Beyond onedark, this colorscheme adds a few features:
 
 # TODO
 
-1. - [ ] more styles. Planning on release 'rose' and 'pure', and (probably not going to happen because I don't like light themes) 'lumen'.
+1. - [x] Released 'rose'
+
+2. - [ ] Planning on release 'pure'
