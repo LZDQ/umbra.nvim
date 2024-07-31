@@ -311,4 +311,47 @@ return {
 		constructor = "#55AD9B", -- sage
 		telescope = "#874CCC", -- dark purple
 	},
+	rose = {
+		-- base color is from deep
+		black = "#0c0e15",
+		bg0 = "#1a212e",
+		bg1 = "#21283b",
+		bg2 = "#283347",
+		bg3 = "#2a324a",
+		bg_d = "#141b24",
+		bg_blue = "#54b0fd",
+		bg_yellow = "#f2cc81",
+		fg = "#93a4c3",
+		-- ibl_scope = "#F33A6A",
+		purple = "#C03698", -- wine
+		green = "#9290C3", -- pale purple
+		orange = "#cc9057",
+		-- blue = "#8576FF",
+		cyan = "#3572EF", -- blue
+		yellow = "#E0A75E",
+		blue = "#BA135D", -- wine
+		red = "#E95793", -- pink
+		grey = "#535965",
+		light_grey = "#7a818e",
+		dark_cyan = "#266269",
+		dark_red = "#8b3434",
+		dark_yellow = "#835d1a",
+		dark_purple = "#7e3992",
+		diff_add = "#272e23",
+		diff_delete = "#2d2223",
+		diff_change = "#172a3a",
+		diff_text = "#274964",
+		-- builtin = "#",
+		parameter = "#A0937D", -- light brown
+		number = "#cc9057", -- orange
+		-- member = 
+		escape = "#7F00FF", -- pink
+		string = "#6EACDA", -- cyan
+		comment = "#81689D", -- dirty purple
+		-- type = "#818FB4",  -- pale purple
+		type = "#2284D1",
+		constant = "#B04889", -- red
+		-- constructor = "#80AF81", -- sage
+		telescope = "#DCAE96", -- dusty rose
+	},
 }

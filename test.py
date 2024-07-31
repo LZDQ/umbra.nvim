@@ -63,11 +63,17 @@ plt.title("Smooth Random Line")
 # plt.show()
 
 class ParentClass:
+    """
+    Parent class to be inherited
+    """
     def __init__(self, name):
         self.name = name
         print("Parent:", name)
 
 class ChildClass(ParentClass):
+    """
+    Children class to inherit from parent class 
+    """
     def name(self):
         return self.name
 

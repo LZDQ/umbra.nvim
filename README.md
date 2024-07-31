@@ -4,21 +4,31 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 # Screenshots
 
-<span style="color:red;">🌕</span> **lollipop** <span style="color:red;">🌕</span>
-
-![](screenshots/lollipop/1.png)
-
-![](screenshots/lollipop/2.png)
-
------
-
-🌙 **fullmoon** 🌙
+🌕 **fullmoon** 🌕
 
 ![](screenshots/fullmoon/1.png)
 
 ![](screenshots/fullmoon/2.png)
 
 ![](screenshots/fullmoon/3.png)
+
+-----
+
+🌹 **rose** 🌹
+
+![](screenshots/rose/1.png)
+
+![](screenshots/rose/2.png)
+
+![](screenshots/rose/3.png)
+
+-----
+
+🍭 **lollipop** 🍭
+
+![](screenshots/lollipop/1.png)
+
+![](screenshots/lollipop/2.png)
 
 -----
 
@@ -54,6 +64,7 @@ umbra.setup {
 	toggle_style_list = {
 		'lollipop',
 		'fullmoon',
+        'rose',
 		'lite',
 		-- 'deep',
 		-- 'warm',
@@ -106,4 +117,4 @@ Beyond onedark, this colorscheme adds a few features:
 
 # TODO
 
-3. - [ ] more styles. Planning on release 'rose' and 'pure', and (probably not going to happen because I don't like light themes) 'lumen'.
+1. - [ ] more styles. Planning on release 'rose' and 'pure', and (probably not going to happen because I don't like light themes) 'lumen'.
