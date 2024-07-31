@@ -6,19 +6,25 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 <span style="color:red;">🌕</span> **lollipop** <span style="color:red;">🌕</span>
 
-![](screenshots/lollipop.png)
+![](screenshots/lollipop/1.png)
 
+![](screenshots/lollipop/2.png)
 
+-----
 
 🌙 **fullmoon** 🌙
 
-![](screenshots/fullmoon.png)
+![](screenshots/fullmoon/1.png)
 
+![](screenshots/fullmoon/2.png)
 
+![](screenshots/fullmoon/3.png)
+
+-----
 
 🌑 **lite** 🌑 (follows the style in onedark)
 
-![](screenshots/lite.png)
+![](screenshots/lite/lite.png)
 
 # Installation & Usage
 
