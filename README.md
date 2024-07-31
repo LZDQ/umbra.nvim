@@ -16,9 +16,9 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 
 
-🌑 **Darkest** 🌑 (follows the style in onedark)
+🌑 **lite** 🌑 (follows the style in onedark)
 
-![darkest](screenshots/darkest.png)
+![](screenshots/lite.png)
 
 # Installation & Usage
 
@@ -48,7 +48,7 @@ umbra.setup {
 	toggle_style_list = {
 		'lollipop',
 		'fullmoon',
-		'darkest',
+		'lite',
 		-- 'deep',
 		-- 'warm',
 		'warmer',

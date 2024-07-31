@@ -195,7 +195,7 @@ return {
 		diff_change = "#e2ecfb",
 		diff_text = "#cad3e0",
 	},
-	darkest = {
+	lite = {
 		-- base color is  from darker
 		black = "#0e1013",
 		bg0 = "#1f2329",
