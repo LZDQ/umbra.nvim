@@ -14,13 +14,13 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 -----
 
-## 🌹 **rose** 🌹
+## 🩸 **impure** 🩸
 
-![](screenshots/rose/1.png)
+![](screenshots/impure/1.png)
 
-![](screenshots/rose/2.png)
+![](screenshots/impure/2.png)
 
-![](screenshots/rose/3.png)
+![](screenshots/impure/3.png)
 
 -----
 

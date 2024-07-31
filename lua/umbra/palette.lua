@@ -311,7 +311,7 @@ return {
 		constructor = "#55AD9B", -- sage
 		telescope = "#874CCC", -- dark purple
 	},
-	rose = {
+	impure = {
 		-- base color is from deep, with slightly different bg0
 		black = "#0c0e15",
 		bg0 = "#1C1F26",

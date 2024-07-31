@@ -1,6 +1,6 @@
 local M = {}
 
-M.styles_list = {'lollipop', 'fullmoon', 'lite', 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer', 'light'}
+M.styles_list = {'lollipop', 'fullmoon', 'impure', 'lite', 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer', 'light'}
 
 ---Change umbra option (vim.g.umbra_config.option)
 ---It can't be changed directly by modifying that field due to a Neovim lua bug with global variables (umbra_config is a global variable)
