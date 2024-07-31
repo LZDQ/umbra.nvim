@@ -266,6 +266,7 @@ return {
 		parameter = "#3c939e", -- dark cyan
 		escape = "#7F00FF", -- violet
 		comment = "#E95793", -- pink
+		type = "#DA0C81",
 		telescope = "#850F8D", -- red
 	},
 	twilight = {
@@ -307,7 +308,7 @@ return {
 		comment = "#9b8aef", -- purple
 		type = "#AF47D2",  -- dark purple
 		constant = "#B04889", -- red
-		constructor = "#55AD9B", -- 
+		constructor = "#55AD9B", -- sage
 		telescope = "#874CCC", -- dark purple
 	},
 }
