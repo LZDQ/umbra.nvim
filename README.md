@@ -14,6 +14,23 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 -----
 
+## 🌒 **newmoon** 🌘
+
+![](screenshots/newmoon/1.png)
+
+![](screenshots/newmoon/2.png)
+
+-----
+## ཐིཋྀ **jeanne** ཐིཋྀ (moth)
+
+![](screenshots/jeanne/1.png)
+
+![](screenshots/jeanne/2.png)
+
+![](screenshots/jeanne/3.png)
+
+-----
+
 ## 🩸 **impure** 🩸
 
 ![](screenshots/impure/1.png)
@@ -21,14 +38,6 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 ![](screenshots/impure/2.png)
 
 ![](screenshots/impure/3.png)
-
------
-
-## 🌒 **newmoon** 🌘
-
-![](screenshots/newmoon/1.png)
-
-![](screenshots/newmoon/2.png)
 
 -----
 
@@ -53,24 +62,27 @@ local umbra = require('umbra')
 
 umbra.setup {
 	-- Main options --
-	style = 'fullmoon',           -- Default theme style. Choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
+	style = 'fullmoon',           -- Default theme style. Choose between 'fullmoon', 'newmoon', 'jeanne', 'impure', 'lite'.
+    -- original onedark styles are also available: 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
 	transparent = false,          -- Show/hide background
 	term_colors = true,           -- Change terminal color as per the selected theme style
 	ending_tildes = false,        -- Show the end-of-buffer tildes. By default they are hidden
 	cmp_itemkind_reverse = false, -- reverse item kind highlights in cmp menu
 
 	-- toggle theme style ---
-	toggle_style_key = '!',       -- keybind to toggle theme style. Leave it nil to disable it, or set it to a string, for example "<leader>ts"
+	toggle_style_key = '!',       -- keybind to toggle theme style. Bang is my custom setting. Leave it nil to disable it, or set it to a string, for example "<leader>ts"
 	toggle_style_list = {
 		'newmoon',
 		'fullmoon',
+        'jeanne',
         'impure',
 		'lite',
-		-- 'deep',
-		-- 'warm',
+        -- below are vanilla onedark styles
+		'deep',
+		'warm',
 		'warmer',
-		-- 'dark',
-		-- 'darker',
+		'dark',
+		'darker',
 		'cool',
 		'light',
 	}, -- List of styles to toggle between
@@ -94,7 +106,7 @@ umbra.setup {
 	-- Custom Highlights --
 	colors = {}, -- Override default colors
 	highlights = {
-		-- For all options, see
+		-- For all options, see lua/umbra/highlights.lua
 	},                                   -- Override highlight groups
 
 	-- Plugins Config --
@@ -115,8 +127,10 @@ Beyond onedark, this colorscheme adds a few features:
 1. Links every lsp hl-group to treesitter hl-group. In this way, custom highlight groups won't be overrided when lsp loads.
 2. Custom color for parameter, builtin, telescope, ibl_indent, ibl_scope. (experimental, if custom highlights doesn't work, I will fix that)
 
+I hope nobody will bother using the second feature so that I don't have to write doc
+
 # TODO
 
 1. - [x] Released 'impure'
 
-2. - [ ] Planning on release 'pure'
+2. - [x] Released 'jeanne'

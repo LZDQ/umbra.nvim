@@ -173,7 +173,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@keyword.directive"] = colors.Purple,
         ["@keyword.exception"] = colors.Purple,
         ["@keyword.function"] = {fg = c.purple, fmt = cfg.code_style.functions},
-        ["@keyword.import"] = colors.Blue,
+        ["@keyword.import"] = {fg = c.import or c.blue },
         ["@keyword.operator"] =  {fg = c.purple, fmt = cfg.code_style.keywords},
         ["@keyword.repeat"] = {fg = c.blue, fmt = cfg.code_style.keywords},
         ["@label"] = colors.Red,

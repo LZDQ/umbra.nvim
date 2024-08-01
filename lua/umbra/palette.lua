@@ -354,7 +354,7 @@ return {
 		constructor = "#6EACDA", -- cyan
 		telescope = "#DCAE96", -- dusty rose
 	},
-	pure = {
+	jeanne = {
 		-- base color is from warm
 		black = "#191a1c",
 		bg0 = "#2c2d30",
@@ -366,14 +366,14 @@ return {
 		bg_yellow = "#e6cfa1",
 		fg = "#b1b4b9",
 		-- ibl_scope = "#F33A6A",
-		purple = "#8576FF",
-		green = "#14C38E",
+		purple = "#D63484", -- red
+		green = "#EBDCA2", -- beige
 		orange = "#cc9057",
 		-- blue = "#8576FF",
-		blue = "#bf68d9",
+		blue = "#DE0096", -- wine
 		yellow = "#e2b86b",
-		cyan = "#4B7BE5", -- dark purple
-		red = "#e55561",
+		cyan = "#2B90D5", -- blue
+		red = "#D20062",
 		grey = "#535965",
 		light_grey = "#7a818e",
 		dark_cyan = "#266269",
@@ -384,12 +384,15 @@ return {
 		diff_delete = "#2d2223",
 		diff_change = "#172a3a",
 		diff_text = "#274964",
-		string = "#3EB489", -- mint
-		builtin = "#4fa6ed",
-		parameter = "#3c939e", -- dark cyan
-		escape = "#7F00FF", -- violet
-		comment = "#E95793", -- pink
-		type = "#DA0C81",
-		telescope = "#850F8D", -- red
+		string = "#bfbf99", -- 
+		builtin = "#c1c489",
+		parameter = "#6EACDA", -- 
+		escape = "#219C90", -- teal
+		comment = "#DAD1B9", -- light beige
+		type = "#2B90D5", -- same as cyan, blue
+		telescope = "#1679AB", -- blue
+		constructor = "#C9C9C9", -- silver
+		constant = "#D6589F", -- pink red
+		import = "#864AF9", -- purple
 	},
 }
