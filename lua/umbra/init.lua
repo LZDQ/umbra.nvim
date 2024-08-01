@@ -43,9 +43,9 @@ end
 
 local default_config = {
     -- Main options --
-    style = 'fullmoon', -- Default style. Choose between 'rose', 'twilight',
-					-- 'darkest', 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
-    toggle_style_key = '!', -- Default key to switch between styles
+    style = 'fullmoon', -- Default style. Choose between 'fullmoon', 'newmoon', 'jeanne', 'impure', 'lite',
+		-- or vanilla onedark styles: 'darkest', 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
+    toggle_style_key = nil, -- Default key to switch between styles
     toggle_style_list = M.styles_list,
     transparent = false,     -- don't set background
     term_colors = true,      -- if true enable the terminal
