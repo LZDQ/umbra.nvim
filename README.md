@@ -24,7 +24,7 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 -----
 
-## 🍭 **newmoon** 🍭
+## 🌒 **newmoon** 🌘
 
 ![](screenshots/newmoon/1.png)
 
