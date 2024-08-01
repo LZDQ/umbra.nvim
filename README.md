@@ -1,6 +1,6 @@
 # Umbra
 
-Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim). (Trying to) follow the style in Bayonetta
+Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim). Follows the style in Bayonetta
 
 # Screenshots
 
@@ -63,7 +63,7 @@ local umbra = require('umbra')
 umbra.setup {
 	-- Main options --
 	style = 'fullmoon',           -- Default theme style. Choose between 'fullmoon', 'newmoon', 'jeanne', 'impure', 'lite'.
-    -- original onedark styles are also available: 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
+	-- original onedark styles are also available: 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
 	transparent = false,          -- Show/hide background
 	term_colors = true,           -- Change terminal color as per the selected theme style
 	ending_tildes = false,        -- Show the end-of-buffer tildes. By default they are hidden
@@ -74,10 +74,10 @@ umbra.setup {
 	toggle_style_list = {
 		'newmoon',
 		'fullmoon',
-        'jeanne',
-        'impure',
+		'jeanne',
+		'impure',
 		'lite',
-        -- below are vanilla onedark styles
+		-- below are vanilla onedark styles
 		'deep',
 		'warm',
 		'warmer',
