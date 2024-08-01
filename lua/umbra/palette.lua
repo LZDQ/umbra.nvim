@@ -231,7 +231,7 @@ return {
 		comment = "#57A6A1",
 		telescope = "#4fa6ed", -- blue
 	},
-	lollipop = {
+	newmoon = {
 		-- base color is from warmer
 		black = "#101012",
 		bg0 = "#232326",

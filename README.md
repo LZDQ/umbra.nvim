@@ -24,11 +24,11 @@ Colorscheme derived from [navarasu/onedark.nvim](https://github.com/navarasu/one
 
 -----
 
-## 🍭 **lollipop** 🍭
+## 🍭 **newmoon** 🍭
 
-![](screenshots/lollipop/1.png)
+![](screenshots/newmoon/1.png)
 
-![](screenshots/lollipop/2.png)
+![](screenshots/newmoon/2.png)
 
 -----
 
@@ -62,7 +62,7 @@ umbra.setup {
 	-- toggle theme style ---
 	toggle_style_key = '!',       -- keybind to toggle theme style. Leave it nil to disable it, or set it to a string, for example "<leader>ts"
 	toggle_style_list = {
-		'lollipop',
+		'newmoon',
 		'fullmoon',
         'impure',
 		'lite',
@@ -117,6 +117,6 @@ Beyond onedark, this colorscheme adds a few features:
 
 # TODO
 
-1. - [x] Released 'rose'
+1. - [x] Released 'impure'
 
 2. - [ ] Planning on release 'pure'
